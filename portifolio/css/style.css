@@ -1,0 +1,127 @@
+.cabecalho {
+    background-color: black;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+  }
+
+.cabecalho-titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+    margin: 0;
+}
+
+.cabecalho-subtitulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: bisque;
+    margin: 0;
+}
+
+.div-conteudo {
+    align-items: start;
+    display: flex;
+    gap: 10px 20px;
+    justify-content: center; 
+    height: 400px;
+}
+
+.div-conteudo-pagina {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center; 
+    align-items: start;
+    display: flex;
+}
+
+.foto-story{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    padding: 2px; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Espaçamento entre as seções */
+    padding: 50px 20px;
+}
+
+.texto-centralizado {
+    text-align: center;
+    margin-top: 0px; 
+}
+  
+.bem-vindo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: bisque;
+}
+
+.quem-sou-eu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px; /* Limita a largura do conteúdo */
+    margin: 0 auto;
+}
+  
+  .texto-resumo h2 {
+    font-size: 2rem;
+    color: bisque; 
+    margin-bottom: 10px;
+  }
+  
+  .texto-resumo {
+    max-width: 500px;
+    text-align: justify;
+}
+
+  
+.foto-principal {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.div-botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.div-botao img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.rodape {
+    background-color: rgb(113, 113, 219);
+}
+
+
+body {
+    margin: 0px;
+  
+}
